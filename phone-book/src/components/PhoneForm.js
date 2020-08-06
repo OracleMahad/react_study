@@ -1,6 +1,7 @@
 import React from 'react';
 class PhoneForm extends React.Component {
-    state = {
+    state =
+    {
         name: '',
         phone: ''
     }
