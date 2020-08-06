@@ -1,13 +1,10 @@
 import React from 'react';
-import './App.css';
+import MyName from './MyName';
 
 class App extends React.Component {
     render() {
         return (
-        <div>
-            <h1>Hello React!</h1>
-            <h2>Welcome!</h2>
-        </div>
+            <MyName name = "리액트" />
         )
     }
 }
